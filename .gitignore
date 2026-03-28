@@ -1,3 +1,4 @@
+# dependencies
 node_modules
 /.pnp
 .pnp.js
@@ -11,7 +12,6 @@ node_modules
 
 # Production
 /build
-*.tsbuildinfo
 
 # Misc
 .DS_Store
@@ -31,3 +31,7 @@ pnpm-debug.log*
 # Editor/IDE-specific files (optional, but recommended)
 .vscode/
 .idea/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
